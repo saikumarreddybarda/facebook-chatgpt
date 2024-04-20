@@ -56,7 +56,8 @@
     </div>
     <div class="container">
         <div class="search-bar">
-            <input type="text" placeholder="Search people...">
+            <label for="searchInput">Search people:</label>
+            <input type="text" id="searchInput" placeholder="Enter name...">
             <button>Search</button>
         </div>
         <div class="newsfeed">
@@ -68,8 +69,10 @@
             <h3>Messaging</h3>
             <!-- Messaging feature content goes here -->
             <form class="message-form">
-                <input type="text" placeholder="Recipient">
-                <textarea placeholder="Message"></textarea>
+                <label for="recipientInput">Recipient:</label>
+                <input type="text" id="recipientInput" placeholder="Enter recipient...">
+                <label for="messageTextarea">Message:</label>
+                <textarea id="messageTextarea" placeholder="Enter your message..."></textarea>
                 <button>Send</button>
             </form>
         </div>
